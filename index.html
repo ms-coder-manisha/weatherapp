@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-main">
+      <div class="searchbox">
+        <input
+          type="text"
+          class="usr_input"
+          id="usr_input"
+          placeholder="Enter city Name"
+        />
+      </div>
+      <div class="weather-body">
+        <div class="location-info">
+          <div class="city" id="city">Delhi,IN</div>
+          <div class="current_date" id="date">18 May(Wednesday) 2022</div>
+        </div>
+        <div class="weather-status">
+          <div class="temp" id="temp">34&deg;C</div>
+          <div class="max-min" id="max-min">20&deg;C(min) / 45&deg;C(max)</div>
+          <div class="condition" id="weather">Clear</div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

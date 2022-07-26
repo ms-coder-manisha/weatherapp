@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("sunny.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  overflow: hidden;
+}
+.app-main {
+  margin: 100px auto;
+  background-color: rgb(255, 255, 255, 0.3);
+  width: 25%;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+}
+.app-main > * {
+  margin: 40px auto;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.usr_input {
+  margin: 5px;
+  padding: 15px;
+  width: 80%;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+  color: blueviolet;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+.weather-body {
+  color: blueviolet;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin: 10px 20px;
+  padding: 20px;
+  border-radius: 10px;
+  line-height: 35px;
+  display: none;
+}
+.location-info {
+  font-weight: bold;
+}
+.weather-status {
+  padding: 20px;
+}
+.temp {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 10px 0;
+  text-shadow: 2px 3px rgba(0, 0, 0, 0.3);
+}
+.max-min,
+.condition {
+  font-size: 20px;
+  font-weight: 500;
+}
