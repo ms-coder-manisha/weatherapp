@@ -4,10 +4,10 @@
   box-sizing: border-box;
 }
 body {
-  background-image: url("sunny.jpg");
   height: 100vh;
   width: 100%;
   background-size: cover;
+  background-image: url("sunny.jpg");
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
